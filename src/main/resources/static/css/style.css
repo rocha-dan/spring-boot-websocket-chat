@@ -1,0 +1,272 @@
+{
+-webkit-box-sizing
+:
+ 
+border-box
+;
+
+	
+-moz-box-sizing
+:
+ 
+border-box
+;
+
+	
+box-sizing
+:
+ 
+border-box
+;
+
+
+}
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 1.58;
+	color: #333;
+	background-color: #f4f4f4;
+	height: 100%;
+}
+
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+input {
+	padding-left: 10px;
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 1.7em;
+}
+
+a {
+	color: #128ff2;
+}
+
+.welcome-page-container {
+	background-color: grey;
+	width: 100%;
+	max-width: 500px;
+	display: inline-block;
+	margin-top: 42px;
+	vertical-align: middle;
+	position: relative;
+	padding: 35px 55px 35px;
+	min-height: 250px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-top: -160px;
+}
+
+#dialogue-page {
+	position: relative;
+	height: 100%;
+}
+
+
+.dialogue-container {
+	background-color: green;
+	margin: 10px 0;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+	margin-top: 30px;
+	height: calc(100% - 60px);
+	max-height: 600px;
+	position: relative;
+}
+
+.contentMessages {
+	height: 85vh;
+}
+
+#dialogue-page ul {
+	list-style-type: none;
+	background-color: #FFF;
+	margin: 0;
+	overflow: auto;
+	border-radius: 5px 5px 0px 0px;
+	padding: 0 20px 0px 20px;
+	height: calc(100% - 100px);
+}
+
+#dialogue-page #dialogueForm {
+	padding: 20px;
+	height: 400px;
+}
+
+#dialogue-page ul li {
+	padding: 10px 20px;
+	margin: 0;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+#dialogue-page ul li p {
+	margin: 0;
+}
+
+#dialogue-page .event-data {
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+
+#dialogue-page .event-data p {
+	color: #777;
+	font-size: 14px;
+	word-wrap: break-word;
+}
+
+#dialogue-page .message-data {
+	padding-left: 68px;
+	position: relative;
+}
+
+#dialogue-page .message-data i {
+	position: absolute;
+	width: 42px;
+	height: 42px;
+	overflow: hidden;
+	left: 10px;
+	max-width: 205px;
+	display: block;
+	vertical-align: middle;
+	font-size: 18px;
+	line-height: 42px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	border-radius: 50%;
+	font-style: normal;
+	text-transform: uppercase;
+	border-radius: 50%;
+	/* float: left; */
+	background: hsl(221, 65%, 63%);
+}
+
+#dialogue-page .message-data i img {
+	width: 42px;
+	height: 42px;
+	overflow: hidden;
+	left: 10px;
+	max-width: 205px;
+	display: block;
+	vertical-align: middle;
+	font-size: 18px;
+	line-height: 42px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	border-radius: 50%;
+	font-style: normal;
+	text-transform: uppercase;
+	border-radius: 50%;
+	/* float: left; */
+	background: hsl(221, 65%, 63%);
+}
+
+#dialogue-page .message-data span {
+	color: #333;
+	font-weight: 600;
+}
+
+#sendmessage {
+	height: 60px;
+	bottom: 0;
+	right: 0px;
+	background: #333;
+}
+
+.panel-footer {
+	background-color: #fff !important; border-top : 1px solid #ddd
+	!important;
+	border-bottom-right-radius: 3px !important;
+	border-bottom-left-radius: 3px !important;
+	border-top: 1px solid #ddd !important;
+}
+
+#dialogue-page .message-data p {
+	color: #43464b;
+	display: inline-block;
+	word-wrap: break-word;
+	padding: 10px 15px;
+	border-radius: 20px;
+	/*     max-width: 205px; */
+	display: block;
+	line-height: 130%;
+	background: #9278e342;
+}
+
+.inputBtnMessage {
+	float: right;
+	border: none;
+	width: 50px;
+	height: 30px; cursor : pointer;
+	background: #32465a;
+	color: #f5f5f5;
+	cursor: pointer;
+}
+
+#dialogueForm .input-group input {
+	border: 0;
+	padding: 10px;
+	background: whitesmoke;
+	float: left;
+	width: calc(100% - 85px);
+}
+
+#dialogueForm .input-group button {
+	float: left;
+	width: 80px;
+	height: 38px;
+	margin-left: 5px;
+}
+
+.dialogue-header {
+	text-align: center;
+	padding: 15px;
+	border-bottom: 1px solid #ececec;
+}
+
+.dialogue-header h2 {
+	margin: 0;
+	font-weight: 500;
+}
+
+.help{
+    letter-spacing: 0px !important;
+    padding-top: 8px;
+}
+
+@media screen and (max-width: 730px) {
+	.dialogue-container {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+	}
+}
