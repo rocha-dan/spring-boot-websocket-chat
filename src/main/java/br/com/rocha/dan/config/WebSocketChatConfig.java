@@ -18,7 +18,7 @@ public class WebSocketChatConfig implements WebSocketMessageBrokerConfigurer {
 		registry.setApplicationDestinationPrefixes("/app");
 		registry.enableStompBrokerRelay("/topic")
 			.setRelayHost("owl.rmq.cloudamqp.com")
-		.setRelayPort(1883)
+		.setRelayPort(61613)
 		.setClientLogin("hmsedciv")
 		.setClientPasscode("ThEi8Jme6oQNOU344QovZjVQb830ix-5");
 
